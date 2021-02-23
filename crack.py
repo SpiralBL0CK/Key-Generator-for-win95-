@@ -16,7 +16,7 @@ def a():
                         w = [str(x) for x in w]
                         w = ''.join(w)
                         if(sum_digits(w) % 7 == 0):
-                            s = "00" + str(i) + str(z) + "-OEM-" + str(w) + "1234567"
+                            s = "00" + str(i) + "0" + str(z) + "-OEM-" + str(w) + "1234567"
                     else:
                         w = ''.join(x)
                         if sum_digits(w) % 7 == 0:
