@@ -1,1 +1,1 @@
-# Key-Generator-for-win95-
+# Key-Generator-for-win95-OEM-MODE
