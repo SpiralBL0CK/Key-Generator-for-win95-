@@ -1,3 +1,8 @@
+#all it needs now it's just jit to optime the shit out of this :) aka install numba on windows and just add this code
+"""
+from numba import jit
+and on top of a add @jit(cache=True,parallel=True))
+"""
 from itertools import product
 
 
@@ -26,3 +31,5 @@ def a():
                     if sum_digits(w) % 7 == 0:
                         s = str(i) + str(z) + "-OEM-" + str(w) + "-1234567"
                 print(s)
+
+a()
